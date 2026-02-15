@@ -1,1 +1,7 @@
-# day-4-python
+This project is a Cyber Activity Risk Analyzer developed as part of the Python Code2Xplore – 60 Days Challenge (DAY Submission). The program analyzes cyber activity scores by taking multiple inputs, storing them in a list, and processing them one by one using a for loop and conditional statements.
+
+Each activity score is classified into risk categories such as Low, Medium, High, and Critical based on predefined score ranges. Negative scores are treated as invalid entries and ignored. Along with classification, the program counts the total number of valid entries and ignored entries, and displays a summarized report after processing all scores.
+
+To ensure originality, the program includes a mandatory personalization logic based on the last digit of the student’s registration number. If the last digit is even, all Low Risk scores are removed (Strict Security Mode). If the last digit is odd, all Critical Risk scores are removed (Normal Security Mode). This personalization makes the output unique for each student while preserving the core analysis logic.
+
+The challenge strictly avoids advanced Python features such as built-in aggregation functions (sum(), max(), min()), dictionaries, sets, exception handling, and external libraries. It focuses only on fundamental Python concepts like lists, loops, indexing, slicing, and conditional statements to build a personalized security analysis engine.
